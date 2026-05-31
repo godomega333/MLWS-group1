@@ -1,0 +1,21 @@
+name: ml-project
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - catboost
+      - jupyterlab
+      - lightgbm
+      - matplotlib
+      - modal
+      - numpy
+      - pandas
+      - psutil
+      - pyyaml
+      - scikit-learn
+      - scipy
+      - seaborn
+      - shap
+      - xgboost

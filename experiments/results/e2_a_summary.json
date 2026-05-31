@@ -1,0 +1,47 @@
+{
+  "baseline_cb_18": {
+    "cryo_mode": "fillna_false",
+    "cv_mean": 0.8100762908196251,
+    "cv_std": 0.009427885413555567,
+    "cv_accs": [
+      0.8228867165037378,
+      0.8021851638872916,
+      0.81196089706728,
+      0.8164556962025317,
+      0.7968929804372842
+    ],
+    "pred_csv": "results/preds_e2_a_baseline_cb_18.csv",
+    "wall_sec": 191.39563179016113
+  },
+  "exp_cryo_spend_rule": {
+    "cryo_mode": "spend_rule",
+    "cv_mean": 0.8113413195287691,
+    "cv_std": 0.011108604517905596,
+    "cv_accs": [
+      0.824036802760207,
+      0.8056354226566993,
+      0.8142610695802185,
+      0.8199079401611047,
+      0.7928653624856157
+    ],
+    "pred_csv": "results/preds_e2_a_exp_cryo_spend_rule.csv",
+    "wall_sec": 186.20302534103394
+  },
+  "config": {
+    "SEED": 78,
+    "N_SPLITS": 5,
+    "SPLIT_RANDOM_STATE": 42,
+    "CB_PARAMS": {
+      "iterations": 1358,
+      "learning_rate": 0.0666,
+      "depth": 5,
+      "l2_leaf_reg": 8.036,
+      "bagging_temperature": 0.424,
+      "border_count": 211,
+      "thread_count": -1,
+      "verbose": false,
+      "random_seed": 78
+    },
+    "CB_THRESHOLD": 0.4725
+  }
+}
