@@ -11,7 +11,7 @@ public leaderboard score for this submission is `0.81973`.
 ## Package Structure
 
 ```text
-workshop-group1/
+MLWS-group1/
 ├── environment.yml
 ├── spaceship-titanic-dataset/
 │   ├── train.csv
@@ -35,7 +35,7 @@ workshop-group1/
   used by the analysis.
 
 All scripts use relative paths. Run commands from the package root directory
-`workshop-group1`.
+`MLWS-group1`.
 
 ## Environment Setup
 
@@ -44,7 +44,7 @@ The recommended environment manager is Conda.
 ### macOS / Linux
 
 ```bash
-cd /path/to/workshop-group1
+cd /path/to/MLWS-group1
 conda env create -f environment.yml
 conda activate ml-project
 ```
@@ -52,7 +52,7 @@ conda activate ml-project
 If the environment already exists:
 
 ```bash
-cd /path/to/workshop-group1
+cd /path/to/MLWS-group1
 conda env update -f environment.yml --prune
 conda activate ml-project
 ```
@@ -60,7 +60,7 @@ conda activate ml-project
 ### Windows PowerShell
 
 ```powershell
-cd C:\path\to\workshop-group1
+cd C:\path\to\MLWS-group1
 conda env create -f environment.yml
 conda activate ml-project
 ```
@@ -68,7 +68,7 @@ conda activate ml-project
 If the environment already exists:
 
 ```powershell
-cd C:\path\to\workshop-group1
+cd C:\path\to\MLWS-group1
 conda env update -f environment.yml --prune
 conda activate ml-project
 ```
@@ -238,7 +238,7 @@ run the final CatBoost submission.
 
 ## Notes
 
-- Run scripts from the `workshop-group1` root directory.
+- Run scripts from the `MLWS-group1` root directory.
 - Do not edit the raw CSV files in `spaceship-titanic-dataset/`.
 - Kaggle public leaderboard scores require submitting generated CSV files to
   the Kaggle Spaceship Titanic competition page.
